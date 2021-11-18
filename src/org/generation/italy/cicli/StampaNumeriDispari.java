@@ -30,20 +30,15 @@ public class StampaNumeriDispari {
 				conteggioNumeriPari ++;	
 			}
 			
-			
-			
 			if (numeri[i] > 10 && numeri[i] < 50) {
 				somma += numeri[i];  
-				//somma = somma + numeri[i];
-				
-			}
-			    
+				//somma = somma + numeri[i];	
+			}   
 		}
 		System.out.println("La somma dei numeri all'interno dell'Array è: " + somma);
 		System.out.println("In totale dentro questo Array ci sono: " + conteggioNumeriDispari + " numeri dispari" );
 		System.out.println("In totale dentro a questo Array ci sono: " + conteggioNumeriPari + " numeri pari");	
-				
-		
+					
 		scanner.close();
 	}
 }
