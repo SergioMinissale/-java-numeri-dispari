@@ -14,20 +14,18 @@ public class StampaNumeriDispari {
 		//creo array	
 		int[] numbers = new int[n];
 		
-		System.out.println("I numeri dispari sono i seguenti: ");
+		System.out.println("I numeri dispari presenti dentro all'Array sono i seguenti: ");
+	
 		for(int i = 0; i < numbers.length; i++ ) {
 			numbers[i] = gen.nextInt(100);
-			
+		
 			if(numbers[i] % 2 != 0) {
-				System.out.println(numbers[i]);
+				System.out.println(numbers[i]);		
 			}
+		
 		}
 		
-		
-		
-
-		
-		
+				
 		
 		scanner.close();
 	}
